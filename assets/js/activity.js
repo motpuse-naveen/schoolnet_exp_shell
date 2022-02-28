@@ -24,7 +24,6 @@ var springAnnimInterval = 0;
 var tabSwitched = false;
 var pausedMillSec = 0;
 var pausedStartDate;
-var IsDesktop = false;
 
 $(".springWeight").draggable({
   axis: "y",
@@ -308,4 +307,23 @@ document.addEventListener('visibilitychange', function () {
     }
   }
 });
+
+$(document).on("click", "#btn_stop", function (event) {
+  StopOscillation();
+  RunningOscillation = false;
+});
+$(document).on("click", "#btn_reset", function (event) {
+  OnResetButton();
+});
+
+$(document).on("click", "#btn_settings", function (event) {
+  $(".popup").hide();
+  $(".popup.settings").fadeIn();
+});
+$(document).on("click", "#btn_calculations", function (event) {
+  $(".popup").hide();
+  $(".popup.calculations").fadeIn();
+});
+
+
 

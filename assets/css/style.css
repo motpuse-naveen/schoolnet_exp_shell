@@ -310,7 +310,7 @@ div.footer-menu-container div.btn-wrap button:focus, div.btn-theme-wrap .btn_the
     content: '';
     position: absolute;
     background-image: url(../images/drag-btn-horizontal.svg);
-    cursor: row-resize;
+    cursor: col-resize;
     height: 36px;
     width: 36px;
     bottom: 30px;
@@ -349,6 +349,13 @@ div.footer-menu-container div.btn-wrap button:focus, div.btn-theme-wrap .btn_the
     border-top: 1px solid var(--theme-popup-border);
     z-index: 4;
     outline: 1px solid var(--theme-popup-border);
+}
+.right_align_popup{
+    width: 300px;
+    height: 100%;
+    padding-bottom: 46px;
+    top: 0px;
+    right: 0px;
 }
 
 .popup .container {
