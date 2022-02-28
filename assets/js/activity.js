@@ -318,10 +318,12 @@ $(document).on("click", "#btn_reset", function (event) {
 
 $(document).on("click", "#btn_settings", function (event) {
   $(".popup").hide();
-  $(".popup.settings").fadeIn();
+  ActivityShell.AdjustSplitPanelsOnClosePopup();
+  $(".popup.settings").fadeIn();\
 });
 $(document).on("click", "#btn_calculations", function (event) {
   $(".popup").hide();
+  ActivityShell.AdjustSplitPanelsOnClosePopup();
   $(".popup.calculations").fadeIn();
 });
 

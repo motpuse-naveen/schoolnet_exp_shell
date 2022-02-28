@@ -46,7 +46,7 @@ var ActivityShell = (function () {
         $popup.addClass("right_align_popup")
       }
     },
-    AdjustSplitPanelsOnClosePopup: function($popup){
+    AdjustSplitPanelsOnClosePopup: function(){
       $("#split-main").css({"width": $(".wrapper").width()})
     }
   }
@@ -85,6 +85,6 @@ $(document).on("click", "#btn_procedure", function (event) {
 });
 $(document).on("click", ".btn-close-popup", function (event) {
   $(this).closest(".popup").fadeOut();
-  ActivityShell.AdjustSplitPanelsOnClosePopup($(this).closest(".popup"))
+  ActivityShell.AdjustSplitPanelsOnClosePopup();
 });
 /*End Common Popup Script */
