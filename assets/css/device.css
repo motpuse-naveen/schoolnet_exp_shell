@@ -1,0 +1,482 @@
+.launch .exp_body h1 {
+    font-size: 54px;
+}
+
+.launch .exp_body h1 .sub-title, .launch .exp_header .sub-title {
+    font-size: 18px;
+}
+
+.container-so.main .exp_header .header h1 .title {
+    font-size: 16px;
+}
+
+.container-so.main .exp_header .header h1 .sub-title {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.popup.settings .popupcontent {
+    font-size: 11px;
+}
+
+.graphContainer, .spingContainer {
+    /*overflow: auto;*/
+}
+
+.springholder {
+    /*text-align: center;*/
+}
+
+img.hookImage {
+    height: 30px;
+}
+
+.springWrapper {
+    height: 95px;
+}
+
+img.springImage {
+    height: 100%;
+    width: 20px;
+    margin-top: -13px;
+    margin-left: 2px;
+}
+
+.springWeight {
+    height: 0px;
+    position: absolute;
+    top: 95px;
+    cursor: pointer;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+}
+img.weightImage{
+    height: 33px;
+    margin-top: -28px;
+    margin-left: 2px;
+}
+
+.weightDispText {
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    color: #CD5052;
+    font-size: 14px;
+    font-family: 'Montserrat-SemiBold';
+
+}
+
+.graphContainer .graphWrapper {
+    transform: scale(0.56);
+    margin: -40px -80px;
+}
+
+.forceSplit {}
+
+.forceSplit0 {}
+
+.forceSplit1 {}
+
+.forcePopup {}
+
+@media only screen and (min-width: 321px) {
+    .container-so.main .exp_header .header h1 .sub-title {
+        font-size: 16px;
+    }
+
+    .popup.settings .popupcontent {
+        font-size: 14px;
+    }
+
+    .inputContainer .input_box {
+        width: 60px;
+        height: 30px;
+        padding: 4px;
+    }
+
+    .sliderInnerWrapper {
+        padding: 0px 34px;
+    }
+
+    .sliderSCContainer .sliderInnerWrapper {
+        padding: 0px 30px;
+    }
+
+    .sliderContainer .min, .sliderContainer .max {
+        width: 34px;
+    }
+
+    .sliderContainer .min {
+        left: -34px;
+    }
+
+    .sliderContainer .max {
+        right: -36px;
+    }
+
+    .graphContainer .graphWrapper {
+        transform: scale(0.6);
+        margin: -40px -80px;
+    }
+}
+
+@media only screen and (min-width: 374px) {
+    .graphContainer .graphWrapper {
+        transform: scale(0.7);
+        margin: -20px -58px;
+    }
+
+    img.hookImage {
+        height: 35px;
+    }
+
+    .springWrapper {
+        height: 110px;
+    }
+
+    img.springImage {
+        height: 100%;
+        width: 22px;
+        margin-top: -14px;
+        margin-left: 3px;
+    }
+
+    .springWeight {
+        height: 0px;
+        position: absolute;
+        top: 110px;
+        cursor: pointer;
+        opacity: 1;
+        width: 100%;
+        text-align: center;
+    }
+    img.weightImage{
+        height: 40px;
+        margin-top: -26px;
+        margin-left: 4px;
+    }
+}
+
+@media only screen and (min-width: 410px) {
+    .popup.settings .popupcontent {
+        font-size: 16px;
+    }
+
+    .sliderInnerWrapper {
+        padding: 0px 40px;
+    }
+
+    .sliderSCContainer .sliderInnerWrapper {
+        padding: 0px 30px;
+    }
+
+    .sliderContainer .min, .sliderContainer .max {
+        width: 40px;
+    }
+
+    .sliderContainer .min {
+        left: -40px;
+    }
+
+    .sliderContainer .max {
+        right: -40px;
+    }
+
+    .graphContainer .graphWrapper {
+        transform: scale(0.75);
+        margin: 0px -48px;
+    }
+}
+
+@media only screen and (min-width: 479px) {
+    .graphContainer .graphWrapper {
+        transform: scale(0.9);
+        margin: 0px -18px;
+    }
+}
+
+@media only screen and (min-width: 530px) {
+    .container {
+       width: 100%;
+       max-width:100%;
+    }
+    img.hookImage {
+        height: 61px;
+    }
+
+    .springWrapper {
+        height: 190px;
+    }
+
+    img.springImage {
+        height: 100%;
+        width: 36px;
+        margin-top: -27px;
+        margin-left: 4px;
+    }
+
+    .springWeight {
+        height: 0px;
+        position: absolute;
+        top: 190px;
+        cursor: pointer;
+        opacity: 1;
+        width: 100%;
+        text-align: center;
+    }
+    img.weightImage{
+        height: 50px;
+        margin-top: -46px;
+        margin-left: 4px;
+    }
+
+    .graphContainer .graphWrapper {
+        transform: scale(1);
+        margin: auto;
+        width: 506px;
+    }
+
+    .springCanvas {
+        padding-top: 10px;
+    }
+    .graphContainer {
+        height: 100%;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .weightDispText {
+        right: -30px;
+        top: 0px;
+    }
+}
+@media only screen and (min-width: 731px) {
+    .container-so.main .exp_header .header {
+        display: block;
+    }
+    .launch .exp_footer .footer {
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .launch .copyrighttext {
+        font-size: 11px;
+        color: var(--theme-copy-text);
+        position: absolute;
+        right: 10px;
+        bottom: 3px;
+        justify-content: right;
+        width: auto;
+        background: transparent;
+        padding: 0;
+    }
+    .launch .exp_body .launch-bg{
+        padding-top: 58px;
+    }
+    .container-so.main .exp_footer .footer .copyrighttext{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    /*.container-so.main .exp_footer .footer {
+        display: inline-block;
+    }
+
+    .container-so.main .exp_footer .footer .footer-menu-container.left {
+        float: left;
+    }
+
+    .container-so.main .exp_footer .footer .footer-menu-container.right {
+        float: right;
+    }
+    */
+
+    #split-0, #split-1 {
+        min-height: 100px;
+        height: 100% !important;
+        max-height: 100%;
+        float: left;
+    }
+
+    #split-0 {
+        width: 40%;
+    }
+
+    #split-1 {
+        width: 60%;
+    }
+
+    .graphContainer .graphWrapper {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    img.hookImage {
+        height: 64px;
+    }
+
+    .springWrapper {
+        height: 180px;
+    }
+
+    img.springImage {
+        height: 100%;
+        width: 36px;
+        margin-top: -25px;
+        margin-left: 5px;
+    }
+
+    .springWeight {
+        height: 0px;
+        position: absolute;
+        top: 180px;
+        cursor: pointer;
+        opacity: 1;
+        width: 100%;
+        text-align: center;
+    }
+    img.weightImage{
+        height: 64px;
+        margin-top: -35px;
+        margin-left: 4px;
+    }
+
+    .springCanvas {
+        padding-top: 20px;
+    }
+
+    .graphContainer {
+        /*height: auto;*/
+    }
+
+    .weightDispText {
+        left: 20px;
+        top: 70px;
+        font-size: 14px;
+    }
+
+    .forceSplit {
+        width: 69% !important;
+    }
+
+    .forceSplit0 {
+        width: 25% !important;
+    }
+
+    .forceSplit1 {
+        width: 74% !important;
+    }
+
+    .forcePopup {
+        width: 30%;
+        height: 100%;
+        right: 0px;
+    }
+
+}
+
+@media screen and (orientation:landscape)
+    and (min-device-width: 480px) {
+    .titledesktop{display: none !important;}
+    .titlemobile{display: block !important;}
+    .launch .exp_header .title{
+        padding: 0.5em 0.5em 0.1em 0.5em;
+    }
+    .launch .exp_header .sub-title{
+        margin-bottom: 0.5em;
+    }
+    .launch .exp_header img.logo{
+        width: 180px;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height:470px) and (min-width:730px){
+    .wrapper {
+        min-height: 990px;
+    }
+    .popup{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin-top: 65px;
+        padding-bottom: 120px;
+        top: 0px;
+    }
+    .graphContainer{
+        padding-top: 50px;
+    }
+}
+
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    .container-so.main .exp_header .header h1 .title, .container-so.main .exp_header .header h1 .sub-title{
+        display: inline;
+    }
+    .container-md, .container-sm, .container{
+        max-width: 100%;
+    }
+    .container-so.main .exp_header .header h1{
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    #split-0, #split-1{
+        height: 100% !important;
+        max-height: 100%;
+        display: inline-block;
+    }
+    #split-0{
+        width: 39%;
+    }
+    #split-1{
+        width:59%;
+    }
+    img.hookImage {
+        height: 35px;
+    }
+    .springWrapper {
+        height: 95px;
+    }
+    
+    img.springImage {
+        height: 100%;
+        width: 20px;
+        margin-top: -13px;
+        margin-left: 2px;
+    }
+    
+    .springWeight {
+        height: 0px;
+        position: absolute;
+        top: 95px;
+        cursor: pointer;
+        opacity: 1;
+        width: 100%;
+        text-align: center;
+    }
+    img.weightImage{
+        height: 33px;
+        margin-top: -28px;
+        margin-left: 2px;
+    }
+    
+    .weightDispText {
+        position: absolute;
+        right: -20px;
+        top: 0px;
+        color: #CD5052;
+        font-size: 14px;
+        font-family: 'Montserrat-SemiBold';
+    
+    }
+    
+    .graphContainer .graphWrapper {
+        transform: scale(0.6);
+        transform-origin: left top;
+    }
+    .wrapper{
+        min-height: auto;
+        max-height: 100%;
+    }
+}
