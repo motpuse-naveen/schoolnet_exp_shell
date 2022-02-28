@@ -424,7 +424,8 @@ img.weightImage{
     #split-0, #split-1{
         height: 100% !important;
         max-height: 100%;
-        display: inline-block;
+        float: left;
+        /*display: inline-block;*/
     }
     #split-0{
         width: 39%;

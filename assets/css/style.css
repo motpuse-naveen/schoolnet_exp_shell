@@ -246,17 +246,20 @@ body {
     height: 100%;
     position: relative;
 }
-.btn_stop, .btn_settings, .btn_sheet, .btn_calculations, .btn_info, .btn_procedure, .btn_reset, .btn_themes {
+.btn_stop, .btn_settings, .btn_sheet, .btn_calculations, .btn_info, .btn_procedure, .btn_reset,.btn_themes {
     height: 46px;
     width: 46px;
     margin: 1px;
     padding: 0px;
 }
+
 .btn_stop:active, .btn_settings:active, .btn_sheet:active, .btn_calculations:active, .btn_info:active, .btn_procedure:active, .btn_reset:active,
 .btn_stop:hover, .btn_settings:hover, .btn_sheet:hover, .btn_calculations:hover, .btn_info:hover, .btn_procedure:hover, .btn_reset:hover,
 .btn_stop:focus, .btn_settings:focus, .btn_sheet:focus, .btn_calculations:focus, .btn_info:focus, .btn_procedure:focus, .btn_reset:focus {
     background-color: var(--theme-pri-text-color);
 }
+
+
 
 div.footer-menu-container {}
 
