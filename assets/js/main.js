@@ -10,7 +10,7 @@ var Activity = (function () {
       $(".container-so.main").show();
       this.AdjustContainerHeight();
       ScreenSplitter.InitSplitter();
-      //GuidedTour.Init();
+      GuidedTour.Init();
     },
     AdjustContainerHeight: function () {
       $(".wrapper").css({
