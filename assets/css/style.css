@@ -196,12 +196,6 @@ body {
     position: relative;
     display: none;
 }
-.btn-theme-wrap{
-    position: absolute;
-    right: 0px;
-    top: 8px;
-    z-index: 11;
-}
 .container-so.main .exp_header .header .head-pan-container{
     display: flex;
 }
@@ -251,6 +245,18 @@ body {
     width: 46px;
     margin: 1px;
     padding: 0px;
+}
+
+.btn-theme-wrap{
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    z-index: 3;
+}
+.btn_themes{
+    background-image: url(../images/theme-icon-outline-right.svg);
+    background-repeat: no-repeat;
+    background-size: 86px 44px;
 }
 
 .btn_stop:active, .btn_settings:active, .btn_sheet:active, .btn_calculations:active, .btn_info:active, .btn_procedure:active, .btn_reset:active,
@@ -341,7 +347,7 @@ div.footer-menu-container div.btn-wrap button:focus, div.btn-theme-wrap .btn_the
     position: absolute;
     bottom: 0px;
     border-top: 1px solid var(--theme-popup-border);
-    z-index: 2;
+    z-index: 4;
     outline: 1px solid var(--theme-popup-border);
 }
 
